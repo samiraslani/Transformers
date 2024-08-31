@@ -8,6 +8,8 @@
    Several approaches for this task are already implemented from applying simple RNNs to bi-directional encoder decoder LSTMs equipped with [additive attention](https://github.com/samiraslani/Additive-Attention-model). The task of sentiment analysis is also examined with a transformer encoder model. The results can be found [here](Sentiment-DotAtten.ipynb/)
 
  * **Named-entity Recognition**:
+   will use pre-trained models from Hugging Face library
+   then fine tune 
 
 
 
