@@ -4,6 +4,7 @@
  The transformer's code is then implemented for various tasks as the following: 
  
  * **Sentiment Analysis**:
+   
    Several approaches for this task are already implemented from applying simple RNNs to bi-directional encoder decoder LSTMs equipped with [additive attention(https://github.com/samiraslani/LSTM-model). The task of sentiment analysis is also examined with a transformer encoder model. The results can be found [here](Sentiment-DotAtten.ipynb/)
 
  * **Named-entity Recognition**:
