@@ -1,11 +1,15 @@
 # Transformers
- This is Transformer model with a dot product attention built from scratch.
+ In this project, we aim to build a transformer's architecture from scratch. The file [Dot_product_Attention](Dot_product_Attention/) contains a general code for a transformer's architecture and is based on the paper [Attention is All you Need.](https://arxiv.org/abs/1706.03762)
+ 
+ The transformer's code is then implemented for various tasks as the following: 
+ 
+ * **Sentiment Analysis**:
+   
+   Several approaches for this task are already implemented from applying simple RNNs to bi-directional encoder decoder LSTMs equipped with [additive attention](https://github.com/samiraslani/Additive-Attention-model). The task of sentiment analysis is also examined with a transformer encoder model. The results can be found [here](Sentiment-DotAtten.ipynb/)
 
- The file [Dot_product_Attention](Dot_product_Attention/) contains a general code for a transformer's architecture developed from scratch. 
-
- The transformer's code is then used for different prediction and language generation tasks which are mentioned below: 
- * Sentiment Analysis: Several approaches for this task are already implemented from applying simple RNNs (accuracy did not surpass 70%) to bi-directional encoder decoder LSTMs with attention (accuracy reached 96%). This time, another attention mechanism will be applied to this task based on the paper "Attention is All you Need."
- * Named-entity Recognition:
+ * **Named-entity Recognition**:
+   will use pre-trained models from Hugging Face library
+   then fine tune 
 
 
 
