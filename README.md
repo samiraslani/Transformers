@@ -1,5 +1,5 @@
 # Transformers
- In this project, we aim to build a transformer's architecture from scratch. The file [Dot_product_Attention](/Dot_product_Attention.ipynb
+ In this project, we aim to build a transformer's architecture from scratch. The file [Dot_product_Attention](Dot_product_Attention.ipynb
 /) contains a general code for a transformer's architecture and is based on the paper [Attention is All you Need.](https://arxiv.org/abs/1706.03762)
  
  The transformer's code is then implemented for various tasks as the following: 
