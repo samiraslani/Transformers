@@ -8,8 +8,6 @@ This repository is dedicated to exploring and implementing various machine learn
 
 ### 1. Transformer Architecture
 
-- **Dot_product_Attention**:
-
 The file [Dot_product_Attention](Dot_product_Attention.ipynb/) contains the general implementation of the transformer architecture. It includes the essential components as described in *Attention is All You Need*. The implementation provides a foundation for understanding and experimenting with transformer models.
 
 ### 2. Sentiment Analysis
