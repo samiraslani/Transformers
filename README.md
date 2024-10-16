@@ -11,13 +11,7 @@ This repository is dedicated to exploring and implementing various machine learn
 The file [Dot_product_Attention](Dot_product_Attention.ipynb/) contains the general implementation of the transformer architecture. It includes the essential components as described in *Attention is All You Need*. The implementation provides a foundation for understanding and experimenting with transformer models.
 
 ### 2. Sentiment Analysis
-
-- **Approaches Implemented Prior to Transformers**: The sentiment analysis task is approached through various models:
-  - Simple RNNs
-  - Bi-directional Encoder-Decoder LSTMs with additive attention
-  - Transformer encoder model
-
-  The performance of the encoder transformer is evaluated, and results can be found [here](Sentiment-DotAtten.ipynb/).
+A transformer encoder is used to run a sentiment analysis on Canva customer feedbacks. The sentiments include positive and negative (binary classification). This model has about 13,000 trainable parameters; the accuracy is 97% and 91% on the training and testing sets respectively. The code can be found [here](Sentiment-DotAtten.ipynb/).
 
 ### 3. Multi-Class Classification 
 
@@ -36,8 +30,7 @@ The file [Dot_product_Attention](Dot_product_Attention.ipynb/) contains the gene
 
   This task is inspired by the [ProjectPro Multi-Class Classification project](https://www.projectpro.io/project-use-case/nlp-project-for-multi-class-text-classification-using-bert). Detailed implementation and results can be found [here](bert.ipynb/).
 
-  -** A Small Encoder**: This model has a maximum of 4 million parameters to train and reaches an accuracy of 67%, average percision of 64/100 and recall of 63/100 on the testing set. 
-  More detailed results can be found [here](complaints+attention_encoder.ipynb/)
+  -** A Small Encoder Model**: This model has a maximum of 4 million parameters to train and reaches an accuracy of 67%, average percision of 64/100, and recall score of 63/100 on the testing set. More detailed results can be found [here](complaints+attention_encoder.ipynb/)
 
   ### 4. Machine Translation
   This project consists of a full transformer model that translates various human-readable dates to machine-readable dates (YYYY-MM-DD). The accuracy reaches 96% on both the training and testing sets. For a more detailed look please visit [here](Dot_machine_translation.ipynb/). 
