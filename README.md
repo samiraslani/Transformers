@@ -30,7 +30,7 @@ A transformer encoder is used to run a sentiment analysis on Canva customer feed
 
   This task is inspired by the [ProjectPro Multi-Class Classification project](https://www.projectpro.io/project-use-case/nlp-project-for-multi-class-text-classification-using-bert). Detailed implementation and results can be found [here](bert.ipynb/).
 
-  -** A Small Encoder Model**: This model has a maximum of 4 million parameters to train and reaches an accuracy of 67%, average percision of 64/100, and recall score of 63/100 on the testing set. More detailed results can be found [here](complaints+attention_encoder.ipynb/)
+  -**A Small Encoder Model**: The same multi-class classification task in done by a smaller encoder model which has a maximum of 4 million parameters to train and reaches an accuracy of 67%, average percision of 64/100, and recall score of 63/100 on the testing set. More detailed results can be found [here](complaints+attention_encoder.ipynb/)
 
   ### 4. Machine Translation
   This project consists of a full transformer model that translates various human-readable dates to machine-readable dates (YYYY-MM-DD). The accuracy reaches 96% on both the training and testing sets. For a more detailed look please visit [here](Dot_machine_translation.ipynb/). 
