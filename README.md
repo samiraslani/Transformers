@@ -46,7 +46,7 @@ These projects are implemented using the **PyTorch** library.
 #### 1. **French to English Machine Translation (fra_eng_translation)**
 This project implements a transformer-based model in **PyTorch** for translating French text to English. The dataset used for this task is taken from the book *Learning Deep Learning: Theory and Practice of Neural Networks, Computer Vision, Natural Language Processing, and Transformers Using TensorFlow* (ISBN: 9780137470358) and the video series *Learning Deep Learning: From Perceptron to Large Language Models* (ISBN: 9780138177553) by Magnus Ekman. For more information please visit [here](https://github.com/NVDLI/LDL/).
 
-You can find the code for this model in [fra_eng_translation](fra_eng_translation/).
+You can find the code for this model in [fra_eng_translation](fre_eng_translation.ipynb/).
 
 ---
 
